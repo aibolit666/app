@@ -5,6 +5,7 @@ import Main from './pages/Main/Main';
 import { NotFound } from './pages/NotFound/NotFound';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import About from 'pages/About/About';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Main />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
