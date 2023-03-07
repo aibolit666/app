@@ -5,7 +5,7 @@ import Main from './pages/Main/Main';
 import { NotFound } from './pages/NotFound/NotFound';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import About from 'pages/About/About';
+import About from './pages/About/About';
 
 const App = () => {
   return (
